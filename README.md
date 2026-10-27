@@ -1,6 +1,6 @@
 # Dag 1 · HTML-grunderna
 
-*Modul 4, UI/UX & Frontendutveckling, Lexicon IT-Proffs*
+_Modul 4, UI/UX & Frontendutveckling, Lexicon IT-Proffs_
 
 ## Vad du ska göra idag
 
@@ -8,7 +8,7 @@ Du bygger HTML-strukturen för startsidan till det fiktiva kaféet **Kafé Karde
 
 ## Bakgrund
 
-HTML beskriver vad innehållet *är*: en rubrik, ett stycke, en lista, en länk. Utseendet kommer med CSS på dag 3. Idag tränar du på att välja rätt element. Texten du ska använda ligger i `innehall.md`, så du slipper hitta på egna texter.
+HTML beskriver vad innehållet _är_: en rubrik, ett stycke, en lista, en länk. Utseendet kommer med CSS på dag 3. Idag tränar du på att välja rätt element. Texten du ska använda ligger i `innehall.md`, så du slipper hitta på egna texter.
 
 ## Så arbetar du (varje dag)
 
@@ -25,9 +25,9 @@ git config --global user.email "din@epost.se"
 
 ### Flödet
 
-1. **Forka repot.** Klicka på *Fork* uppe till höger på GitHub, sedan *Create fork*. Du får en egen kopia under ditt användarnamn.
-2. **Klona din fork.** Klicka på den gröna knappen *Code*, fliken *HTTPS*, och kopiera adressen. I terminalen: gå till den mapp där du vill ha dina projekt (till exempel `cd Documents`) och skriv `git clone ` följt av adressen.
-3. **Öppna den nya mappen i VS Code** (*File → Open Folder*). Starta *Live Server* (högerklicka på `index.html` → *Open with Live Server*).
+1. **Forka repot.** Klicka på _Fork_ uppe till höger på GitHub, sedan _Create fork_. Du får en egen kopia under ditt användarnamn.
+2. **Klona din fork.** Klicka på den gröna knappen _Code_, fliken _HTTPS_, och kopiera adressen. I terminalen: gå till den mapp där du vill ha dina projekt (till exempel `cd Documents`) och skriv `git clone ` följt av adressen.
+3. **Öppna den nya mappen i VS Code** (_File → Open Folder_). Starta _Live Server_ (högerklicka på `index.html` → _Open with Live Server_).
 4. **Gör uppgiften.** Spara ofta. Webbläsaren uppdateras av sig själv.
 5. **Spara i Git och skicka upp.** I terminalen, i projektmappen:
    ```
@@ -36,7 +36,7 @@ git config --global user.email "din@epost.se"
    git push
    ```
    Meddelandet mellan citattecknen ska beskriva vad du gjorde. Första gången du kör `git push` öppnas ett fönster där du loggar in på GitHub via webbläsaren. Det görs bara en gång.
-6. **Kontrollera på GitHub.** Ladda om din fork. Din commit syns under *Commits*.
+6. **Kontrollera på GitHub.** Ladda om din fork. Din commit syns under _Commits_.
 7. **Lämna in i Microsoft Forms** (länk finns i kanalen). Du klistrar in länken till din fork.
 
 Fastnar du: skriv ner exakt var och vad du försökt, och ta det först i nästa handledda pass.
@@ -65,7 +65,7 @@ I `om-oss`: en bild med alt-text och två stycken. Sist på sidan ett `<footer>`
 
 ### Steg 6. Kontrollera din kod
 
-Gå till validator.w3.org, välj *Validate by direct input*, klistra in din kod och klicka *Check*. Rätta tills det står "Document checking completed. No errors". Kontrollera också att rubrikerna följer hierarkin: en `<h1>`, sedan `<h2>`, sedan `<h3>` utan hopp.
+Gå till validator.w3.org, välj _Validate by direct input_, klistra in din kod och klicka _Check_. Rätta tills det står "Document checking completed. No errors". Kontrollera också att rubrikerna följer hierarkin: en `<h1>`, sedan `<h2>`, sedan `<h3>` utan hopp.
 
 ## Kontrollista: så vet du att du är klar
 
