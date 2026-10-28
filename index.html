@@ -1,85 +1,134 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="sv">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kafé Kardemumma – fika i hjärtat av Stockholm</title>
+    </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kafé Kardemumma – fika i hjärtat av Stockholm</title>
-</head>
+    <body>
+        <header>
+            <h1>Kafé Kardemumma</h1>
+            <nav aria-label="Huvudmeny">
+                <ul>
+                    <li><a href="#menu">Meny</a></li>
+                    <li><a href="#om-oss">Om oss</a></li>
+                    <li><a href="kontakt.html">Boka bord</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="hero">
+                <h2>Nybakat varje morgon</h2>
+                <p>
+                    Hos oss bakas allt från grunden. Kom in för en bulle, en
+                    kopp kaffe och en stund för dig själv.
+                </p>
+                <a href="#menu">Se meny</a>
+            </section>
+            <section id="menu">
+                <h2>Våran Meny</h2>
+                <div id="" class="menu-list">
+                    <article>
+                        <h3>Kardemummabulle</h3>
+                        <p>Bakad på färsk kardemumma och pärlsocker.</p>
+                        <p class="pize">35 kr</p>
+                        <img
+                            id="menuImgBulle"
+                            class=""
+                            src="images/bulle.svg"
+                            alt="En god kardemumma bulle med pärlscker"
+                            width="150"
+                            height="150"
+                        />
+                    </article>
+                    <article>
+                        <h3>Bryggkaffe</h3>
+                        <p>Lokalrostat, med fri påtår</p>
+                        <p class="pize">32 kr</p>
+                        <img
+                            id="menuImgKaffe"
+                            class=""
+                            src="images/kaffe.svg"
+                            alt="En kopp gott bryggkaffe"
+                            width="150"
+                            height="150"
+                        />
+                    </article>
+                    <article>
+                        <h3>Ostmacka</h3>
+                        <p>Surdegsbröd, lagrad ost och krispig sallad.</p>
+                        <p>59 kr</p>
+                        <img
+                            id="menuImgSandwitch"
+                            class=""
+                            src="images/smorgas.svg"
+                            alt="V&aring;r smaskiga ostsm&ouml;rg&aring;s"
+                            width="150"
+                            height="150"
+                        />
+                    </article>
+                    <article>
+                        <h3>Toast</h3>
+                        <p>
+                            Surdegsbröd runt lagrad ost, tomat och krispig
+                            sallad.
+                        </p>
+                        <p class="pize">59 kr</p>
+                        <img
+                            id="menuImgToast"
+                            class=""
+                            src="images/smorgas.svg"
+                            alt="V&aring;r smaskiga osttoast p&aring; surdegsbr&ouml;d"
+                            width="150"
+                            height="150"
+                        />
+                    </article>
+                </div>
+            </section>
+            <section id="om-oss">
+                <h2>Om Oss</h2>
+                <p>
+                    Kafé Kardemumma öppnade 2019 och drivs av två vänner som
+                    ville ha ett ställe där man vågar sitta kvar. Vi handlar
+                    lokalt och bakar varje dag.
+                </p>
+                <p>Öppet vardagar 07–18 och helger 09–16.</p>
+                <img
+                    id="aboutImgCaffe"
+                    class=""
+                    src="images/kafe.svg"
+                    alt="bild på vårat kaffe sett från gatan"
+                    width="250"
+                    height="250"
+                />
+            </section>
+            <section id="knappen">
+                <h2>Bonus uppgift</h2>
+                <p>
+                    Varför det är bättre att använda elementet &gt;button&lt; än
+                    &lt;div&gt;. Det har att göra med hur skärmläsare ser
+                    knapp-elementet jämfört med hur den ser div-elementet.
+                    Div-elementet är bara ett vanligt element och har i
+                    skärmläsarens ögon inte någon action.
+                </p>
 
-<body>
-  <header>
-    <h1>Kafé Kardemumma</h1>
-    <nav aria-label="Huvudmeny">
-      <ul>
-        <li><a href="#menu">Meny</a></li>
-        <li><a href="#om-oss">Om oss</a></li>
-        <li><a href="kontakt.html">Boka bord</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="hero">
-      <h2>Nybakat varje morgon</h2>
-      <p>Hos oss bakas allt från grunden. Kom in för en bulle, en kopp kaffe och en stund för dig själv.</p>
-      <a href="#menu">Se meny</a>
-    </section>
-    <section id="menu">
-      <h2>Våran Meny</h2>
-      <article>
-        <h3>Kardemummabulle</h3>
-        <p>Bakad på färsk kardemumma och pärlsocker.</p>
-        <p>35 kr</p>
-        <img id="menuImgBulle" class="" src="images/bulle.svg" alt="En god kardemumma bulle med pärlscker" width="150"
-          height="150">
-      </article>
-      <article>
-        <h3>Bryggkaffe</h3>
-        <p>Lokalrostat, med fri påtår</p>
-        <p>32 kr</p>
-        <img id="menuImgKaffe" class="" src="images/kaffe.svg" alt="En kopp gott bryggkaffe" width="150" height="150">
-      </article>
-      <article>
-        <h3>Ostmacka</h3>
-        <p>Surdegsbröd, lagrad ost och krispig sallad.</p>
-        <p>59 kr</p>
-        <img id="menuImgSandwitch" class="" src="images/smorgas.svg" alt="V&aring;r smaskiga ostsm&ouml;rg&aring;s"
-          width="150" height="150">
-      </article>
-      <article>
-        <h3>Toast</h3>
-        <p>Surdegsbröd runt lagrad ost, tomat och krispig sallad.</p>
-        <p>59 kr</p>
-        <img id="menuImgToast" class="" src="images/smorgas.svg"
-          alt="V&aring;r smaskiga osttoast p&aring; surdegsbr&ouml;d" width="150" height="150">
-      </article>
-    </section>
-    <section id="om-oss">
-      <h2>Om Oss</h2>
-      <p>Kafé Kardemumma öppnade 2019 och drivs av två vänner som ville ha ett ställe där man vågar sitta kvar. Vi
-        handlar
-        lokalt och bakar varje dag.</p>
-      <p>Öppet vardagar 07–18 och helger 09–16.</p>
-      <img id="aboutImgCaffe" class="" src="images/kafe.svg" alt="bild på vårat kaffe sett från gatan" width="250"
-        height="250">
-    </section>
-    <section id="knappen">
-      <h2>Bonus uppgift</h2>
-      <p>
-        Varför det är bättre att använda elementet &gt;button&lt; än &lt;div&gt;. Det har att göra med hur skärmläsare
-        ser knapp-elementet jämfört med hur den ser div-elementet. Div-elementet är bara ett vanligt element och har i
-        skärmläsarens ögon inte någon action.
-      </p>
-
-      <button id="btn" onclick="alert('I am a button')">Här händer det saker</button>
-      <div id="divBtn" class="btn" onclick="alert('Darn div');">Medans här händer inte ett skvatt för skärmläsaren</div>
-
-    </section>
-  </main>
-  <footer>
-    © 2026 Kafé Kardemumma <address>Fiktivgatan 1, 111 11 Stockholm</address>
-    <a href="mailto:hej@kardemumma.example">Kontakta oss via epost</a>
-  </footer>
-</body>
-
+                <button id="btn" class="btn" onclick="alert('I am a button')">
+                    Här händer det saker
+                </button>
+                <div id="divBtn" class="btn" onclick="alert('Darn div')">
+                    Medans här händer inte ett skvatt för skärmläsaren
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 Kafé Kardemumma</p>
+            <address>
+                Fiktivgatan 1, 111 11 Stockholm<br />
+                <a href="mailto:hej@kardemumma.example"
+                    >Kontakta oss via epost</a
+                >
+            </address>
+        </footer>
+    </body>
 </html>
